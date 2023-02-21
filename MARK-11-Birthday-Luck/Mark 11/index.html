@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>Neeraj Is Your Birthday Lucky?</title>
+</head>
+<body>
+    <div class="model">
+        <div class="model-container">
+           <h3 class="model-heading">
+               <!-- <i class="fa fa-exclamation-circle" aria-hidden="true"></i>  -->
+           </h3>
+          
+           <button class="model-btn"></button>
+        </div>    </div>
+    <div class="container">
+        <header class="header">
+            <h1 class="heading">Neeraj Pratap Singh What do you think, Is Your Birthday Lucky?</h1>
+        </header>
+        <main class="main">
+            <form class="form">
+                <div class="form-section">
+                    <label for="bday">Tell me When you are born ?</label>
+                    <input type="date" id="bday" required placeholder="Birthday">
+                </div>
+                <div class="form-section">
+                    <label for="lucky-num">What do you think your lucky no is ?</label>
+                    <input required type="number" id="lucky-num" min="1" max="99">
+                </div>
+                <button type="submit" class="btn">Lets find Out are you lucky or not</button>
+            </form>
+        </main>
+        <section>
+            <h1 class="result"></h1>
+            <img class="img" src="" >
+        </section>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
